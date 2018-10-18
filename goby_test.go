@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/goby-lang/goby/vm"
 	"io"
 	"io/ioutil"
 	"os"
@@ -10,6 +9,8 @@ import (
 	"runtime"
 	"strings"
 	"testing"
+
+	"github.com/goby-lang/goby/vm"
 )
 
 func init() {
